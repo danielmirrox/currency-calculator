@@ -1,35 +1,25 @@
 # currency-calculator
 
-Simple python GUI project using `tkinter` capable of:
-- Currency conversion based on Central Bank of Russia (CBR) data
-- Displaying exchange rate dynamics for selected currency over a specified period
+Простой GUI Python проект на `tkinter` для конвертации валют и визуализации графиков изменений за заданный период.
+
+## Функционал
+
+- Конвертация валюты в реальном времени на основе данных Центрального банка России
+- Визуализация изменения курса валют за выбранный период (данные за апрель 2024)
+- Интерактивный пользовательский интерфейс
+
+## Актуальность данных
+| Тип данных           | Статус          | Подробности                      |
+|----------------------|-----------------|----------------------------------|
+| Курсы валют           | 🔄 Актуальные   | Обновляются при запуске           |
+| Данные динамики курса | ⏳ Исторические  | За апрель 2024 (для демонстрации) |
+
+## Зависимости
+
+* **matplotlib**
 
 
-## Features
-- Real-time currency conversion 
-- Historical rate visualization (April 2024 dataset)
-- Interactive GUI with tkinter
-
-## Data Relevance
-| Data Type          | Status            | Details                          |
-|--------------------|-------------------|----------------------------------|
-| Exchange rates     | 🔄 Live           | Updates on startup               |
-| Rate dynamics data | ⏳ Snapshot       | April 2024 version               |
-
-## Dependencies
-
-* matplotlib
-* pandas
-* numpy
-
-## Try it out
-
+## Использование
 
 ```bash
 python main.py
-```
-
-## Notes
-
-- Data source: [CBR XML API (ЦБ РФ)](https://www.cbr.ru/development/SXML/)
-- Requires active internet connection
