@@ -1,0 +1,20 @@
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Virtual environment folders
+venv/
+.venv/
+env/
+
+# PyCharm project settings
+.idea/
+
+# Matplotlib and other temp folders
+.matplotlib/
+
+# System files
+.DS_Store
+Thumbs.db
+
+.cfg
