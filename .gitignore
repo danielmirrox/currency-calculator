@@ -7,8 +7,9 @@ venv/
 .venv/
 env/
 
-# PyCharm project settings
+# IDE
 .idea/
+.vscode/
 
 # Matplotlib and other temp folders
 .matplotlib/
@@ -18,3 +19,4 @@ env/
 Thumbs.db
 
 .cfg
+.env
