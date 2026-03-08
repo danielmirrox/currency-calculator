@@ -46,7 +46,16 @@ def calc():
             messagebox.showwarning("Ошибка", "Выберите обе валюты.")
             return
 
+        if not txt.get().strip():
+            messagebox.showwarning("Ошибка ввода", "Введите сумму для конвертации.")
+            return
+
         amount = float(txt.get())
+        
+        if data[val_2][-2] == 0:
+            messagebox.showerror("Ошибка", "Некорректный курс валюты.")
+            return
+        
         koef = data[val_1][-2] / data[val_2][-2]
         result = amount * koef
 
